@@ -1,13 +1,5 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://127.0.0.1/meltedCone",
-  {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
-    // useCreateIndex: true,
-    // useFindAndModify: false,
-  }
-);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/ice-cup");
 
 module.exports = mongoose.connection;

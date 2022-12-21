@@ -15,22 +15,6 @@ db.once("open", async () => {
     await Category.create(categorySeeds);
     await Product.create(productSeeds);
     const products = Product.find();
-
-    // for (let i = 0; i < reviewSeeds.length; i++) {
-    //   //get a random product _id
-    //   const productIndex = Math.random * (0 - products.length) + 0;
-    //   const productId = products[productIndex]._id;
-    //   // create a review and link it to a product
-    //   const { _id } = await Reviews.create(reviewSeeds[i]);
-    //   const product = await Product.findOneAndUpdate(
-    //     { _id: productId },
-    //     {
-    //       $addToSet: {
-    //         reviews: _id,
-    //       },
-    //     }
-    //   );
-    // }
   } catch (err) {
     console.error(err);
     process.exit(1);

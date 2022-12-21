@@ -4,7 +4,7 @@
     "toppings": "nuts",
     "sizes": "small",
 
-    "price": "7.99",
+    "price": "20000",
     "size": "single pint",
     "image": "chocolate.jpg"
   },
@@ -14,7 +14,7 @@
     "sizes": "medium",
     "image": "strawberry.jpg",
 
-    "price": "7.99",
+    "price": "25000",
     "size": "single pint"
   },
   {
@@ -22,38 +22,37 @@
     "toppings": "fudge",
     "sizes": "large",
     "image": "vanilla.jpg",
-    "price": "7.99",
+    "price": "18500",
     "size": "single pint"
   },
   {
     "flavor": "Blackberry",
     "image": "blackberry.jpg",
     "size": "single pint",
-    "price": "7.99"
-    
+    "price": "27000"
   },
-    {
+  {
     "flavor": "Caramel",
     "image": "caramel.jpg",
     "size": "single pint",
-    "price": "7.99"
+    "price": "15000"
   },
-    {
+  {
     "flavor": "mango",
     "image": "mango.PNG",
     "size": "single pint",
-    "price": "7.99"
+    "price": "30000"
   },
-      {
+  {
     "flavor": "Cookie Dough",
     "image": "cookies.jpg",
     "size": "single pint",
-    "price": "7.99"
+    "price": "35000"
   },
   {
     "flavor": "Green Tea",
     "image": "greentea.PNG",
     "size": "single pint",
-    "price": "7.99"
+    "price": "22500"
   }
 ]
