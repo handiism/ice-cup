@@ -49,15 +49,15 @@ export default function Contact() {
         <br></br>
         <div style={styles.container}>
           <h4 style={styles.span}> We are located at: </h4>
-          <p style={styles.quote}> 987 Melted Cone Way </p>
-          <p style={styles.quote}> Denver, CO 80123 </p>
+          <p style={styles.quote}> UPN Veteran Yogykarta </p>
+          <p style={styles.quote}> Babarsari, DI Yogykarta </p>
           <h4 style={styles.span}> Phone </h4>
-          <p style={styles.quote}> 303.555.9876 </p>
+          <p style={styles.quote}> 088123200 </p>
           <h4 style={styles.span}> Email </h4>
           <p style={styles.quote}>
             {" "}
             <a style={styles.email} href="mailto:themeltedcone@gmail.com">
-              themeltedcone@gmail.com
+              icecup@store.com
             </a>{" "}
           </p>
         </div>

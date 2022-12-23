@@ -22,9 +22,7 @@ import Contact from "./pages/Contact";
 import Subscribe from "./pages/Subscribe";
 import Profile from "./pages/Profile";
 import Success from "./pages/Success";
-// import Cart from "./components/Cart/Cart";
 
-// import OrderHistory from "./pages/OrderHistory";
 const httpLink = createHttpLink({
   uri: "/graphql",
 });
@@ -50,25 +48,17 @@ export default function App() {
       <StoreProvider>
         <Router>
           <div>
-            <Header />
             <Navbar />
-            {/* <Home /> */}
-            <div>
-              <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/login" element={<Login />} />
-                <Route exact path="/signup" element={<Signup />} />
-                <Route exact path="/about" element={<About />} />
-                <Route exact path="/order" element={<Order />} />
-                <Route exact path="/contact" element={<Contact />} />
-                <Route exact path="/subscribe" element={<Subscribe />} />
-                <Route exact path="/profile" element={<Profile />} />
-                <Route exact path="/success" element={<Success />} />
-
-                {/* <Route exact path="/cart" element={<Cart />} /> */}
-              </Routes>
-              <Footer />
-            </div>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/login" element={<Login />} />
+              <Route exact path="/signup" element={<Signup />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/order" element={<Order />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/profile" element={<Profile />} />
+              <Route exact path="/success" element={<Success />} />
+            </Routes>
           </div>
         </Router>
       </StoreProvider>

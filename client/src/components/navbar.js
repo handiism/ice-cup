@@ -116,18 +116,6 @@ const Navbar = () => {
               CONTACT{" "}
             </Link>{" "}
           </li>
-          <li style={styles.navbar}>
-            {" "}
-            <Link
-              style={styles.navbar}
-              className="btn bg-transparent"
-              to="/subscribe"
-              id="subscribe"
-            >
-              {" "}
-              SUBSCRIBE{" "}
-            </Link>{" "}
-          </li>
         </ul>
         <div class="d-flex">
           <div>

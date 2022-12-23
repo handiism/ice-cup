@@ -67,13 +67,8 @@ export default function Home() {
         >
           <h3 style={styles.quote} className="p-5 align-items-center">
             " No need to pick <span style={styles.span}>flavorites </span>when
-            it comes to ice cream,{" "}
-            <Link style={styles.btn} to="/subscribe" className="btn bg-white">
-              {" "}
-              SUBSCRIBE
-            </Link>{" "}
-            to The Melted Cone and make every day a
-            <span style={styles.span}> SUNDAE! "</span>
+            it comes to ice cream, SUBSCRIBE to ice cup store and make every
+            day!
           </h3>
         </div>
       </div>
@@ -139,8 +134,6 @@ export default function Home() {
                   {" "}
                   just pure rich goodness.
                 </h6>
-
-
               </div>
               <div className="card-body">
                 <a className="card-link" style={styles.flavorites}>

@@ -90,7 +90,7 @@ function ProductItem(item) {
             {flavor}
           </h5>
           {/* </Link> */}
-          <span style={styles.price}>${price}</span>
+          <span style={styles.price}>Rp {price}</span>
           <span>{size}</span>
         </div>
 

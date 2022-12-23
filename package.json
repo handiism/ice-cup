@@ -1,5 +1,5 @@
 {
-  "name": "tech-friends",
+  "name": "ice-cup",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -16,7 +16,5 @@
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }

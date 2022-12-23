@@ -52,7 +52,7 @@ export default function About() {
         <div style={styles.cardContainer}>
           <br></br>
           <h3 style={styles.flavorites}>
-            Make life even sweeter here at the Melted Cone{" "}
+            Make life even sweeter here at ice cup store{" "}
           </h3>
           <br></br>
           <h3 style={styles.quote}>
@@ -65,7 +65,7 @@ export default function About() {
               {" "}
               ice cream is the perfect treat for any occassion.
               <h3>
-                you can try new flavors at the Melted Cone without the hassle
+                you can try new flavors at ice cup store without the hassle
                 <br></br>
                 <h3>
                   Share with your family or eat it yourself
